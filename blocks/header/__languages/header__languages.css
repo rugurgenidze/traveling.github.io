@@ -1,0 +1,6 @@
+@import url('./__lang/header__lang.css');
+
+.header__languages{
+    display: flex;
+    justify-content: space-between;
+}

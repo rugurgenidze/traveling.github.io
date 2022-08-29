@@ -1,0 +1,13 @@
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+
+.place__website{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+@media screen and (max-width: 767px) {
+    .place__website {
+        display: none;
+    }
+}

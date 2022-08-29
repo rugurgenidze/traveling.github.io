@@ -1,0 +1,21 @@
+@import url('./__span-text/intro__span-text.css');
+
+.intro__text{
+    max-width: 383px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+@media screen and (max-width: 1023px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+	.intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

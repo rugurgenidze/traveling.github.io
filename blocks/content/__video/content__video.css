@@ -1,0 +1,18 @@
+.content__video{
+    margin: 102px 128px 0;
+}
+@media screen and (max-width: 1439px) {
+	.content__video{
+        margin: 102px 48px 0;
+    }
+}
+@media screen and (max-width: 1023px) {
+	.content__video{
+        margin: 102px 24px 0;
+    }
+}
+@media screen and (max-width: 767px) {
+	.content__video{
+        margin: 64px 16px 0;
+    }
+}

@@ -1,0 +1,26 @@
+.header__lang_active{
+    text-decoration: underline;
+    margin-right: 18px;
+    margin-left: 929.42px;
+}
+@media (max-width : 1024px) {
+	.header__lang_active{
+        margin-left: 673.42px;
+    }
+}
+@media (max-width : 768px) {
+	.header__lang_active{
+        margin-left: 465.42px;
+    }
+}
+@media (max-width : 375px) {
+	.header__lang_active{
+        margin-right: 16px;
+        margin-left: 125px;
+    }
+}
+@media (max-width : 320px) {
+	.header__lang_active{
+        margin-left: 76px;
+    }
+}

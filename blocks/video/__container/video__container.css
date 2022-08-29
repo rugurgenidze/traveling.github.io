@@ -1,0 +1,25 @@
+@import url('./item/item.css');
+
+.video__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 72px auto 0;
+}
+@media screen and (max-width: 1023px)  {
+	.video__container {
+        margin: 56px auto 0;
+    }
+}
+@media screen and (max-width: 767px) {
+	.video__container {
+        margin: 24px auto 0;
+    }
+}
+@media screen and (max-width: 549px) {
+	.video__container {
+        flex-direction: column;
+        margin: 24px auto 0;
+    }
+}

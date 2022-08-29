@@ -1,0 +1,43 @@
+@import url('./__link/item__link.css');
+
+.item{
+    width: calc((100% - 18px)/2);;
+    height: 323px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    background-size: cover;
+}
+.item_bg_kamchatka{
+    background-image: url(../../../../images/kamchatka.jpg);
+    margin-right: 18px;
+}
+.item_bg_observatory{
+    background-image: url(../../../../images/observatory.jpg);
+}
+@media screen and (max-width: 1279px) {
+	.item {
+        height: 288px;
+    }
+}
+@media screen and (max-width: 1023px) {
+	.item {
+        height: 200px;
+    }
+}
+@media screen and (max-width: 767px) {
+	.item {
+        width: 100%;
+        height: 200px; 
+    }
+    .item_bg_kamchatka{
+        margin-bottom: 8px; 
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 374px) {
+	.item {
+        height: 192px;
+    }
+}

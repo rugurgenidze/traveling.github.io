@@ -1,0 +1,12 @@
+@import url('./__text/intro__text.css');
+
+.intro__texts{
+    max-width: 383px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+    .intro__texts {
+        max-width: 100%;
+    }
+}

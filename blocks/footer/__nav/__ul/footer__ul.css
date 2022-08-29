@@ -1,0 +1,16 @@
+@import url('./__li/footer__li.css');
+
+.footer__ul{
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 0;
+    list-style-type: none;
+}
+@media screen and (max-width: 549px) {
+	.footer__ul {
+        flex-direction: column;
+    }
+}

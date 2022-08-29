@@ -1,0 +1,47 @@
+@import url("./__lead/content__lead.css");
+@import url("./__intro/content__intro.css");
+@import url("./__photo-grid/content__photo-grid.css");
+@import url("./__places/content__places.css");
+@import url("./__video/content__video.css");
+@import url("./__comments/content__comments.css");
+@import url("./__cover/content__cover.css");
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    background-color:#2A2C2F;
+}
+@media screen and (max-width: 1439px) {
+    .content {
+        max-width: 1280px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1279px) {
+    .content {
+        max-width: 1024px;
+    }
+} 
+@media screen and (max-width: 1023px) {
+    .content {
+        max-width: 768px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .page {
+        max-width: 550px;
+    }
+}
+@media screen and (max-width: 549px) {
+    .page {
+        max-width: 375px;
+    }
+}
+@media screen and (max-width: 374px) {
+    .content {
+        max-width: 320px;
+    }
+}

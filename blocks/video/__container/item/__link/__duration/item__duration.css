@@ -1,0 +1,19 @@
+.item__duration{
+    max-width: 44px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    margin: 0 auto 12px 30px;
+}
+@media screen and (max-width: 1023px) {
+	.item__duration {
+        margin: 0 auto 8px 24px;
+    }
+}
+@media screen and (max-width: 374px) {
+	.item__duration {
+        margin: 0 auto 8px 16px;
+    }
+}

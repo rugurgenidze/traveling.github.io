@@ -1,0 +1,14 @@
+@import url('./__paragraph/place__paragraph.css');
+
+.place__container{
+    max-width: 484px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    position: relative;
+}
+@media screen and (max-width: 767px){
+	.place__container {
+        margin-left: 16px;
+    }
+}
